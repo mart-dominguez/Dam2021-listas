@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/serieElegida"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24dp"
+        android:textColor="@color/purple_500"
+        android:text="- - - - " />
+
+    <Spinner
+        android:id="@+id/cmbGenero"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></Spinner>
+    <TextView
+        android:id="@+id/txtPeliculaSeleccionada"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="" />
+    <ListView
+        android:id="@+id/lvSeries"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"></ListView>
+<Button
+    android:id="@+id/btnElegirVarias"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Elegir varias"></Button>
+</LinearLayout>
